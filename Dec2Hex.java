@@ -3,13 +3,14 @@ import java.util.Scanner;
 class Dec2Hex {
     public static int Arg1;
     public static void main(String args[]) {
-        if (args.length > 0) {
-            // Check if input is null
-            if (args[0]==null)
-            {
-                System.out.println("Input can not be empty!");
-                System.exit(1);
-            }
+        // Check if input is null
+        if (args.length == 0)
+        {
+            System.out.println("Input can not be empty!");
+            System.exit(1);
+        }
+        else if (args.length > 0) {
+
             try 
             {
                 Arg1 = Integer.parseInt(args[0]);
