@@ -15,7 +15,7 @@ class Dec2Hex {
             }
         }
         // Check if input is null
-        if (Arg1=null)
+        if (Arg1==null)
         {
             System.err.println("Input can not be empty!");
             System.exit(1);
