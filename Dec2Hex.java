@@ -1,4 +1,5 @@
 // Dec2Hex Program converts decimal value to a hexadecimal representation.
+// Changed by Nika
 import java.util.Scanner;
 class Dec2Hex {
     public static int Arg1;
@@ -26,7 +27,7 @@ class Dec2Hex {
         int rem, num;
         num = Arg1;
         String hexadecimal = "";
-        System.out.println("Converting the Decimal Value " + num + " to Hex...");
+        System.out.println("Converting Decimal Value " + num + " to Hex...");
 
         while (num != 0) {
             rem = num % 16;
