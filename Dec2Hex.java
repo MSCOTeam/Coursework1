@@ -36,6 +36,6 @@ class Dec2Hex {
         }
 
         System.out.println("Hexadecimal representation is : " + hexadecimal);
-	System.exit(1);
+	System.exit(15);
 }
 }
